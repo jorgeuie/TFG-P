@@ -11,7 +11,7 @@ Sistema Multi-Agente: Cinco agentes ReAct basados en LangGraph orquestador, extr
 API e Interfaces: Una capa REST de FastAPI gestiona la inicialización del sistema, la configuración de los LLMs y la observabilidad a través de Arize Phoenix y OpenTelemetry. También está disponible un cliente gráfico ligero en Tkinter para usuarios no técnicos.
 
 ## Instalación
-Consulta Guía_de_instalación.md para ver todos los pasos de configuración.
+Consulta Guía_de_instalación.md ubicado en la carpeta Readme para ver todos los pasos de configuración.
 
 ## Evaluación
 Se evaluaron seis configuraciones de modelos a través de 12 preguntas en cuatro bases de datos PostgreSQL (Northwind, DVD, escuela, Netflix). Owl-Alpha alcanzó un 100% de precisión de ejecución con una latencia promedio de 751 s. Las configuraciones basadas en GPT-OSS-120B alcanzaron un 91.7%. Por otro lado, los modelos especializados en SQL de 7B (Arctic-Text2SQL-R1-7B, XiYanSQL-QwenCoder-7B) solo lograron un 8.3% debido a una discrepancia en la distribución de entrenamiento entre el contexto del esquema formateado en Markdown y el formato exclusivo de DDL utilizado en sus evaluaciones de ajuste fino (fine-tuning).
