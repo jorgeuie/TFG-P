@@ -1,0 +1,13 @@
+{
+	"servers": {
+
+		"my-mcp-server-main": {
+			"type": "stdio",
+			"command": "C:/Users/Jorge/anaconda3/envs/tfg/python.exe",
+			"args": [
+				"C:\\Users\\Jorge\\Desktop\\TFG\\Dev\\main.py"
+			]
+		}
+	},
+	"inputs": []
+}
